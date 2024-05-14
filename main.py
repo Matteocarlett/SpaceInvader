@@ -17,11 +17,6 @@ mixer.music.load("background.wav")
 mixer.music.set_volume(0.05)  # Set background music volume to 5%
 mixer.music.play(-1)
 
-# Caption and Icon
-pygame.display.set_caption("Space Invader")
-icon = pygame.image.load('ufo.png')
-pygame.display.set_icon(icon)
-
 # Player
 playerImg = pygame.image.load('player.png')
 playerX = 370
